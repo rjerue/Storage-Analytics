@@ -21,4 +21,4 @@ to render its templates on the server.
 
 ### What is this?
 
-This is a project made for CS320 at UMass Amherst that renders some data visualization. This application was made for HP using data that they provided, but are unable to upload here.h
+This is a project made for CS320 at UMass Amherst that renders some data visualization. This application was made for HP using data that they provided, but are unable to upload here.
