@@ -1,6 +1,6 @@
 import play.PlayImport.PlayKeys.playRunHooks
 
-name := """play-react-webpack"""
+name := """storage-analytics"""
 
 version := "1.0-SNAPSHOT"
 
@@ -33,3 +33,4 @@ pipelineStages := Seq(digest, gzip)
 resolvers += "scalaz-bintray" at "http://dl.bintray.com/scalaz/releases"
 
 
+fork in run := true
