@@ -1,56 +1,28 @@
-Play framework, ReactJs and webpack
-===================================
+# Play framework, ReactJs and webpack
 
-This is a simple project to illustrate how to setup playframework to work with react js, es6 and webpack
+### What is this?
 
-Just checkout the project and do ```npm install```to install all dependencies or rebuild it step by step by following instructions below.
+This is a project made for CS320 at UMass Amherst that renders some data visualization. This application was made for HP using data that they provided, but are unable to upload here.
+This is a simple project to illustrate how to setup playframework to work with react js, es6 and webpack.
 
-# Initialize npm project
+## What do I need?
 
-```
-npm init
-```
+* JDK8 shipped with a JavaScript runtime: [Nashorn](http://openjdk.java.net/projects/nashorn/)
+* React supports server side rendering via
+  [`React.renderToString`](http://facebook.github.io/react/docs/top-level-api.html#react.rendertostring).
+* The [Play Framework](http://playframework.com/) is a web framework that runs
+  on the JVM.
+* You will also need [Sass](http://sass-lang.com/)
 
-# Install react
+With these powers combined, Play can use the same JavaScript sent to the client
+to render its templates on the server.
 
-```
-npm install react react-dom --save
-```
+## To try it out:
 
-
-# Install dependencies for dev
-
-```
-npm install webpack --save-dev
-npm install babel-core babel-loader babel-preset-react babel-preset-es2015 babel-plugin-transform-react-jsx --save-dev
-npm install babel-plugin-react-require --save-dev
-```
-
-# .babelrc content :
-
-```
-{
-  "presets": ["es2015", "react"],
-  "plugins": [
-    "react-require"
-  ]
-}
-``
-
-## For linting
-
-```
-npm install eslint eslint-loader --save-dev
-```
-
-## For handling CSS and Sass
-
-```
-npm install node-sass css-loader sass-loader style-loader --save-dev
-```
-
-    "jsx-loader": "^0.13.2",
-    "node-sass": "^3.4.2",
-    "style-loader": "^0.13.0",
-    "webpack": "^1.12.9",
-    "webpack-dev-server": "^1.14
+1. Install [JDK8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) for your platform.
+2. Install [Scala] (https://www.scala-lang.org/download/) for your platform. Tested using 2.12.0
+3. Install [Scala Build Tool](http://www.scala-sbt.org/download.html) for your platform. Tested using 0.13.13
+4. Clone this repository
+5. run `npm install` to install dependencies.
+6. Run the app with `activator run` and wait for webpack to do its thing.
+7. View [http://localhost:9000/](http://localhost:9000/) in your browser
