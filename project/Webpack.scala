@@ -15,7 +15,7 @@ object Webpack {
 
       override def afterStarted(addr: InetSocketAddress) = {
         process = Option(
-          Process("cmd /c \"webpack\" --watch", base).run()
+          Process("cmd /c \"webpack --watch\"", base).run()
         )
       }
 

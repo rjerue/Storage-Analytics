@@ -1,10 +1,14 @@
-import play.PlayImport.PlayKeys.playRunHooks
+import play.sbt.PlayImport.PlayKeys.playRunHooks
 
-name := """storage-analytics"""
+name := """bookie"""
 
-version := "1.0-SNAPSHOT"
+version := "0.1-SNAPSHOT"
 
-lazy val root = (project in file(".")).enablePlugins(PlayScala)
+lazy val root = (project in file(".")).enablePlugins(PlayScala).settings(
+  // Disable NPM node modules
+  JsEngineKeys.npmNodeModules in Assets := Nil,
+  JsEngineKeys.npmNodeModules in TestAssets := Nil
+)
 
 scalaVersion := "2.11.6"
 
@@ -33,4 +37,3 @@ pipelineStages := Seq(digest, gzip)
 resolvers += "scalaz-bintray" at "http://dl.bintray.com/scalaz/releases"
 
 
-fork in run := true

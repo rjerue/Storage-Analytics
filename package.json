@@ -1,7 +1,7 @@
 {
-  "name": "storage-analytics",
+  "name": "bookie",
   "version": "1.0.0",
-  "description": "Playframework + React Js + webpack",
+  "description": "bookie",
   "main": "index.js",
   "author": "Ryan Jerue",
   "license": "ISC",
@@ -23,25 +23,29 @@
   "bugs": {
     "url": "https://github.com/rjerue/Storage-Analytics/issues"
   },
-  "homepage": "https://github.com/rjerue/Storage-Analytics#readme.md",
+  "homepage": "https://github.com/rjerue/Storage-Analytics",
   "dependencies": {
-    "react": "^0.14.8",
-    "react-dom": "^0.14.8"
+    "react": "^15.3.0",
+    "react-dom": "^15.3.0"
   },
   "devDependencies": {
-    "babel-core": "^6.20.0",
-    "babel-loader": "^6.2.9",
+    "babel-core": "^6.4.0",
+    "babel-loader": "^6.2.1",
     "babel-plugin-react-require": "^2.1.0",
-    "babel-plugin-transform-react-jsx": "^6.8.0",
-    "babel-preset-es2015": "^6.18.0",
-    "babel-preset-react": "^6.16.0",
-    "css-loader": "^0.23.1",
+    "babel-plugin-transform-react-jsx": "^6.4.0",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "css-loader": "^0.25.0",
     "eslint": "^1.10.3",
-    "eslint-loader": "^1.6.1",
+    "eslint-loader": "^1.2.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.9.0",
+    "font-awesome-webpack": "0.0.4",
     "jsx-loader": "^0.13.2",
-    "node-sass": "^3.13.1",
-    "sass-loader": "^3.2.3",
+    "node-sass": "^3.11.1",
+    "sass-loader": "^4.0.2",
     "style-loader": "^0.13.1",
-    "webpack": "^1.14.0"
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.3"
   }
 }

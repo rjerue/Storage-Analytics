@@ -20,12 +20,13 @@ class IntegrationSpec extends Specification {
       override val webDriver = {
         val capabilities = new DesiredCapabilities()
         capabilities.setJavascriptEnabled(true)
+        capabilities.setCapability("phantomjs.binary.path", "C:\\localdata\\programs\\phantomjs\\bin\\phantomjs.exe")
         new PhantomJSDriver(capabilities)
       }
 
       browser.goTo("http://localhost:" + port)
 
-      browser.pageSource must contain("Brady")
+      browser.pageSource must contain("Ninja")
     }
   }
 }
