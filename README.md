@@ -13,6 +13,7 @@ This is a simple project to illustrate how to setup playframework to work with r
 * The [Play Framework](http://playframework.com/) is a web framework that runs
   on the JVM.
 * You will also need [Sass](http://sass-lang.com/)
+* [NodeJS](https://nodejs.org/en/) used for packaging.
 
 With these powers combined, Play can use the same JavaScript sent to the client
 to render its templates on the server.
@@ -22,8 +23,9 @@ to render its templates on the server.
 1. Install [JDK8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) for your platform.
 2. Install [Scala] (https://www.scala-lang.org/download/) for your platform. Tested using 2.12.0
 3. Install [Scala Build Tool](http://www.scala-sbt.org/download.html) for your platform. Tested using 0.13.13
-4. Clone this repository
-5. run `npm install` to install dependencies.
-6. Run the app with `sbt run` and wait for webpack to do its thing.
-7. View [http://localhost:9000/](http://localhost:9000/) in your browser
-8. If you need to make changes, delete the `app/assets/javascrips/build` folder.
+4. Install [Node](https://nodejs.org/en/) for your platform.
+5. Clone this repository
+6. Run `npm install` to install dependencies.
+7. Run the app with `sbt run` and wait for webpack to do its thing.
+8. View [http://localhost:9000/](http://localhost:9000/) in your browser
+9. If you need to make changes, delete the `app/assets/javascrips/build` folder. If you run into webpack issues, try installing it globally with `npm install -g webpack` and reboot your PC.
