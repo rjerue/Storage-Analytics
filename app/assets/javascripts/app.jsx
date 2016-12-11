@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import '../stylesheets/style.scss';
-import Greeter from './Greeter.jsx';
 
 ReactDOM.render((
     <div>
