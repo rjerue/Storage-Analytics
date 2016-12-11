@@ -24,5 +24,6 @@ to render its templates on the server.
 3. Install [Scala Build Tool](http://www.scala-sbt.org/download.html) for your platform. Tested using 0.13.13
 4. Clone this repository
 5. run `npm install` to install dependencies.
-6. Run the app with `activator run` and wait for webpack to do its thing.
+6. Run the app with `sbt run` and wait for webpack to do its thing.
 7. View [http://localhost:9000/](http://localhost:9000/) in your browser
+8. If you need to make changes, delete the `app/assets/javascrips/build` folder.
