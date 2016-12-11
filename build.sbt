@@ -1,6 +1,6 @@
 import play.sbt.PlayImport.PlayKeys.playRunHooks
 
-name := """bookie"""
+name := """storage-analytics"""
 
 version := "0.1-SNAPSHOT"
 
@@ -35,5 +35,3 @@ watchSources ~= { (ws: Seq[File]) =>
 pipelineStages := Seq(digest, gzip)
 
 resolvers += "scalaz-bintray" at "http://dl.bintray.com/scalaz/releases"
-
-
