@@ -5,7 +5,7 @@ import '../stylesheets/style.scss';
 
 ReactDOM.render((
     <div>
-        <h1>Playframework, React JS, ES 6 and webpack</h1>
+        <h1>Running Playframework, React JS, ES 6 and webpack</h1>
         <h2>Tom Brady did not deflate those footballs!</h2>
 				<Gcomponent/>
     </div>), document.getElementById("app"));
