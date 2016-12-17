@@ -1,11 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Gcomponent from './Gcomponent.jsx'
 import '../stylesheets/style.scss';
+import DC_Header from './DC_Header.jsx'
+import DC_GInput from './DC_GInput.jsx'
+import DC_GContainer from './DC_GContainer.jsx'
 
 ReactDOM.render((
     <div>
-        <h1>Running Playframework, React JS, ES 6 and webpack</h1>
-        <h2>Tom Brady did not deflate those footballs!</h2>
-				<Gcomponent/>
-    </div>), document.getElementById("app"));
+        <DC_Header/>
+				<div className="container">
+					<DC_GInput/>
+	        <DC_GContainer/>
+				</div>
+    </div>
+), document.getElementById("app"));
