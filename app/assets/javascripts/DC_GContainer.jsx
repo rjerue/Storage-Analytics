@@ -1,6 +1,6 @@
 import Gcomponent from './Gcomponent.jsx'
 const cStyle = {
-	'paddingBottom': '50px'
+    'paddingBottom': '50px'
 };
 class DC_GContainer extends React.Component {
     render() {
