@@ -8,9 +8,9 @@ import DC_GContainer from './DC_GContainer.jsx'
 ReactDOM.render((
     <div>
         <DC_Header/>
-				<div className="container">
-					<DC_GInput/>
-	        <DC_GContainer/>
-				</div>
+        <div className="container">
+            <DC_GInput/>
+            <DC_GContainer/>
+        </div>
     </div>
 ), document.getElementById("app"));
