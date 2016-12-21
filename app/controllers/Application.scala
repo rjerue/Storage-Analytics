@@ -10,8 +10,12 @@ class Application extends Controller {
     Ok(views.html.app("HP Storage Analytics Application"))
   }
 
-	def tname = Action{
-		Ok(Json.prettyPrint(CmdLine.runSql("1236")))
+	def fake(sid: Int) = Action {
+    Ok(views.html.app("HP Storage Analytics Application"))
+  }
+
+	def getData(sid: Int) = Action{
+		Ok(Json.prettyPrint(CmdLine.runSql(""+sid)))
 	}
 
 }

@@ -18,3 +18,5 @@ sampleData
 sampleData/
 /sampleData
 /sampleData/
+JsonDumpFile.json
+*.json

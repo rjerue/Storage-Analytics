@@ -2,7 +2,7 @@ import sqlite3
 import json
 import sys
 
-Location = 'E:\\User Account Info\\Documents\\GitHub\\Storage-Analytics\\app\\parser\\DataCore.db'
+Location = 'E:\\DataCore.db'
 CONNECTION = sqlite3.connect(Location) ## Change this to the name of the Database
 c = CONNECTION.cursor()
 
