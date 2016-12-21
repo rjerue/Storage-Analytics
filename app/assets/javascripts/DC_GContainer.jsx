@@ -1,26 +1,32 @@
 import Gcomponent from './Gcomponent.jsx'
 const cStyle = {
-    'paddingBottom': '50px'
+    'padding': '100px',
+		'height': '800px'
 };
+
 class DC_GContainer extends React.Component {
+    constructor(props) {
+        super(props);
+    }
+
     render() {
         return (
-            <div className="container" style={cStyle}>
+            <div className="row" style={cStyle}>
                 <div className="col-md-6">
-                    <h3>Column 1</h3>
-                    <Gcomponent/>
+                    <h3>portWriteAvgIOSizeKB</h3>
+                    <Gcomponent name={"portWriteAvgIOSizeKB"} data={this.props.data.data1}/>
                 </div>
                 <div className="col-md-6">
-                    <h3>Column 2</h3>
-                    <Gcomponent/>
+                    <h3>cpuLatestTotalAvgPct</h3>
+                    <Gcomponent name={"cpuLatestTotalAvgPct"} data={this.props.data.data2}/>
                 </div>
                 <div className="col-md-6">
-                    <h3>Column 3</h3>
-                    <Gcomponent/>
+                    <h3>portReadAvgIOSizeKB</h3>
+                    <Gcomponent name={"portReadAvgIOSizeKB"} data={this.props.data.data3}/>
                 </div>
                 <div className="col-md-6">
-                    <h3>Column 4</h3>
-                    <Gcomponent/>
+                    <h3>portTotalBandwidthMBPS</h3>
+                    <Gcomponent name={"portTotalBandwidthMBPS"} data={this.props.data.data4}/>
                 </div>
                 <br/>
             </div>

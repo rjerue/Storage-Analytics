@@ -4,7 +4,7 @@
 
 object Main {
   def main(args: Array[String]): Unit = {
-    val directory = "/Users/Anthony/Downloads/Users/jeffboutotte/Desktop/perform-csv"    //**CHANGE THIS** Directory of CSV files
+    val directory = "./perform-csv"    //**CHANGE THIS** Directory of CSV files
     val allFiles = new java.io.File(directory).listFiles()
     val allPerformance = allFiles.dropRight(1)
     val  summary = allFiles.drop(allFiles.length-1)
