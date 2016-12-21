@@ -1,6 +1,8 @@
 package controllers
 
+import cmdLine.CmdLine
 import play.api._
+import play.api.libs.json._
 import play.api.mvc._
 
 class Application extends Controller {
@@ -9,7 +11,7 @@ class Application extends Controller {
   }
 
 	def tname = Action{
-		Ok("HP Storage Analytics Application")
+		Ok(Json.prettyPrint(CmdLine.runSql("1236")))
 	}
 
 }

@@ -1,0 +1,241 @@
+[{
+    "cpuLatestTotalAvgPct": 6.0,
+    "systemID": 10,
+    "to": "2016-06-10 11:45:52",
+    "portWriteAvgIOSizeKB": 31.405542502166583,
+    "portTotalBandwidthMBPS": 790.0720843521292,
+    "portReadAvgIOSizeKB": 43.644970277640994,
+    "from": "2016-06-10 06:49:15"
+}, {
+    "cpuLatestTotalAvgPct": 6.0,
+    "systemID": 10,
+    "to": "2016-06-10 16:42:36",
+    "portWriteAvgIOSizeKB": 25.64733436665266,
+    "portTotalBandwidthMBPS": 664.9723263447645,
+    "portReadAvgIOSizeKB": 56.00685194439147,
+    "from": "2016-06-10 11:45:52"
+}, {
+    "cpuLatestTotalAvgPct": 4.0,
+    "systemID": 10,
+    "to": "2016-06-10 21:38:19",
+    "portWriteAvgIOSizeKB": 29.56556794334275,
+    "portTotalBandwidthMBPS": 676.8798013578969,
+    "portReadAvgIOSizeKB": 72.69623174026836,
+    "from": "2016-06-10 16:42:36"
+}, {
+    "cpuLatestTotalAvgPct": 18.0,
+    "systemID": 10,
+    "to": "2016-06-11 02:34:00",
+    "portWriteAvgIOSizeKB": 60.393032374933526,
+    "portTotalBandwidthMBPS": 1613.50928840322,
+    "portReadAvgIOSizeKB": 133.1017499512976,
+    "from": "2016-06-10 21:38:19"
+}, {
+    "cpuLatestTotalAvgPct": 15.0,
+    "systemID": 10,
+    "to": "2016-06-11 07:32:55",
+    "portWriteAvgIOSizeKB": 68.01249915954108,
+    "portTotalBandwidthMBPS": 2123.2117840465567,
+    "portReadAvgIOSizeKB": 117.21419556752048,
+    "from": "2016-06-11 02:34:00"
+}, {
+    "cpuLatestTotalAvgPct": 15.0,
+    "systemID": 10,
+    "to": "2016-06-11 07:32:55",
+    "portWriteAvgIOSizeKB": null,
+    "portTotalBandwidthMBPS": null,
+    "portReadAvgIOSizeKB": null,
+    "from": "2016-06-11 07:32:55"
+}, {
+    "cpuLatestTotalAvgPct": 9.0,
+    "systemID": 10,
+    "to": "2016-06-11 12:31:17",
+    "portWriteAvgIOSizeKB": 50.66700662336584,
+    "portTotalBandwidthMBPS": 1791.6607697679444,
+    "portReadAvgIOSizeKB": 81.98111580327921,
+    "from": "2016-06-11 07:32:55"
+}, {
+    "cpuLatestTotalAvgPct": 16.0,
+    "systemID": 10,
+    "to": "2016-06-11 17:30:02",
+    "portWriteAvgIOSizeKB": 35.54425584986851,
+    "portTotalBandwidthMBPS": 1621.9673185007516,
+    "portReadAvgIOSizeKB": 82.59695224133132,
+    "from": "2016-06-11 12:31:17"
+}, {
+    "cpuLatestTotalAvgPct": 3.0,
+    "systemID": 10,
+    "to": "2016-06-11 22:26:15",
+    "portWriteAvgIOSizeKB": 29.173429068041663,
+    "portTotalBandwidthMBPS": 626.8553191317567,
+    "portReadAvgIOSizeKB": 56.66967697341931,
+    "from": "2016-06-11 17:30:02"
+}, {
+    "cpuLatestTotalAvgPct": 10.0,
+    "systemID": 10,
+    "to": "2016-06-12 03:22:01",
+    "portWriteAvgIOSizeKB": 37.25794349504078,
+    "portTotalBandwidthMBPS": 813.2169587325577,
+    "portReadAvgIOSizeKB": 60.7537377212233,
+    "from": "2016-06-11 22:26:15"
+}, {
+    "cpuLatestTotalAvgPct": 15.0,
+    "systemID": 10,
+    "to": "2016-06-12 08:20:56",
+    "portWriteAvgIOSizeKB": 52.212008815236665,
+    "portTotalBandwidthMBPS": 1649.34189211421,
+    "portReadAvgIOSizeKB": 89.46374641088417,
+    "from": "2016-06-12 03:22:01"
+}, {
+    "cpuLatestTotalAvgPct": 15.0,
+    "systemID": 10,
+    "to": "2016-06-12 08:20:56",
+    "portWriteAvgIOSizeKB": null,
+    "portTotalBandwidthMBPS": null,
+    "portReadAvgIOSizeKB": null,
+    "from": "2016-06-12 08:20:56"
+}, {
+    "cpuLatestTotalAvgPct": 13.0,
+    "systemID": 10,
+    "to": "2016-06-12 13:20:53",
+    "portWriteAvgIOSizeKB": 58.60374445862031,
+    "portTotalBandwidthMBPS": 1673.8427660548134,
+    "portReadAvgIOSizeKB": 62.06300940068444,
+    "from": "2016-06-12 08:20:56"
+}, {
+    "cpuLatestTotalAvgPct": 5.0,
+    "systemID": 10,
+    "to": "2016-06-12 18:17:48",
+    "portWriteAvgIOSizeKB": 45.220381990425935,
+    "portTotalBandwidthMBPS": 846.3693171616264,
+    "portReadAvgIOSizeKB": 57.19335868723033,
+    "from": "2016-06-12 13:20:53"
+}, {
+    "cpuLatestTotalAvgPct": 5.0,
+    "systemID": 10,
+    "to": "2016-06-12 23:13:34",
+    "portWriteAvgIOSizeKB": 24.849233594943378,
+    "portTotalBandwidthMBPS": 656.3564337171273,
+    "portReadAvgIOSizeKB": 64.86783372426335,
+    "from": "2016-06-12 18:17:48"
+}, {
+    "cpuLatestTotalAvgPct": 12.0,
+    "systemID": 10,
+    "to": "2016-06-13 04:10:27",
+    "portWriteAvgIOSizeKB": 54.097452149610085,
+    "portTotalBandwidthMBPS": 1952.18932823651,
+    "portReadAvgIOSizeKB": 118.57895113521302,
+    "from": "2016-06-12 23:13:34"
+}, {
+    "cpuLatestTotalAvgPct": 15.0,
+    "systemID": 10,
+    "to": "2016-06-13 09:08:24",
+    "portWriteAvgIOSizeKB": 29.534943069688225,
+    "portTotalBandwidthMBPS": 1597.129263212355,
+    "portReadAvgIOSizeKB": 71.24099347362532,
+    "from": "2016-06-13 04:10:27"
+}, {
+    "cpuLatestTotalAvgPct": 15.0,
+    "systemID": 10,
+    "to": "2016-06-13 09:08:24",
+    "portWriteAvgIOSizeKB": null,
+    "portTotalBandwidthMBPS": null,
+    "portReadAvgIOSizeKB": null,
+    "from": "2016-06-13 09:08:24"
+}, {
+    "cpuLatestTotalAvgPct": 7.0,
+    "systemID": 10,
+    "to": "2016-06-13 14:05:16",
+    "portWriteAvgIOSizeKB": 29.80682383269874,
+    "portTotalBandwidthMBPS": 879.2048891076329,
+    "portReadAvgIOSizeKB": 47.98318581913628,
+    "from": "2016-06-13 09:08:24"
+}, {
+    "cpuLatestTotalAvgPct": 17.0,
+    "systemID": 10,
+    "to": "2016-06-13 19:01:19",
+    "portWriteAvgIOSizeKB": 32.038806923092835,
+    "portTotalBandwidthMBPS": 1289.2010351798904,
+    "portReadAvgIOSizeKB": 101.46764978243785,
+    "from": "2016-06-13 14:05:16"
+}, {
+    "cpuLatestTotalAvgPct": 10.0,
+    "systemID": 10,
+    "to": "2016-06-13 23:58:52",
+    "portWriteAvgIOSizeKB": 29.757937745508073,
+    "portTotalBandwidthMBPS": 1866.4819827303843,
+    "portReadAvgIOSizeKB": 119.44228225677745,
+    "from": "2016-06-13 19:01:19"
+}, {
+    "cpuLatestTotalAvgPct": 9.0,
+    "systemID": 10,
+    "to": "2016-06-14 05:00:19",
+    "portWriteAvgIOSizeKB": 57.02040885641179,
+    "portTotalBandwidthMBPS": 1532.4042171364338,
+    "portReadAvgIOSizeKB": 97.36262309734559,
+    "from": "2016-06-13 23:58:52"
+}, {
+    "cpuLatestTotalAvgPct": 9.0,
+    "systemID": 10,
+    "to": "2016-06-14 10:01:25",
+    "portWriteAvgIOSizeKB": 33.77883055821214,
+    "portTotalBandwidthMBPS": 1186.839572383087,
+    "portReadAvgIOSizeKB": 59.77945147895237,
+    "from": "2016-06-14 05:00:19"
+}, {
+    "cpuLatestTotalAvgPct": 9.0,
+    "systemID": 10,
+    "to": "2016-06-14 10:01:25",
+    "portWriteAvgIOSizeKB": null,
+    "portTotalBandwidthMBPS": null,
+    "portReadAvgIOSizeKB": null,
+    "from": "2016-06-14 10:01:25"
+}, {
+    "cpuLatestTotalAvgPct": 13.0,
+    "systemID": 10,
+    "to": "2016-06-14 15:01:48",
+    "portWriteAvgIOSizeKB": 25.21856309282701,
+    "portTotalBandwidthMBPS": 1173.4641988055953,
+    "portReadAvgIOSizeKB": 60.50558851100182,
+    "from": "2016-06-14 10:01:25"
+}, {
+    "cpuLatestTotalAvgPct": 9.0,
+    "systemID": 10,
+    "to": "2016-06-14 20:01:39",
+    "portWriteAvgIOSizeKB": 32.772805986575975,
+    "portTotalBandwidthMBPS": 1455.3648463001032,
+    "portReadAvgIOSizeKB": 110.20537410700143,
+    "from": "2016-06-14 15:01:48"
+}, {
+    "cpuLatestTotalAvgPct": 13.0,
+    "systemID": 10,
+    "to": "2016-06-15 01:01:11",
+    "portWriteAvgIOSizeKB": 28.702025138118053,
+    "portTotalBandwidthMBPS": 836.199859751997,
+    "portReadAvgIOSizeKB": 67.15224899443295,
+    "from": "2016-06-14 20:01:39"
+}, {
+    "cpuLatestTotalAvgPct": 6.0,
+    "systemID": 10,
+    "to": "2016-06-15 06:00:50",
+    "portWriteAvgIOSizeKB": 46.909313156849954,
+    "portTotalBandwidthMBPS": 1128.4502778702974,
+    "portReadAvgIOSizeKB": 76.4427650637869,
+    "from": "2016-06-15 01:01:11"
+}, {
+    "cpuLatestTotalAvgPct": 6.0,
+    "systemID": 10,
+    "to": "2016-06-15 06:00:50",
+    "portWriteAvgIOSizeKB": null,
+    "portTotalBandwidthMBPS": null,
+    "portReadAvgIOSizeKB": null,
+    "from": "2016-06-15 06:00:50"
+}, {
+    "cpuLatestTotalAvgPct": 13.0,
+    "systemID": 10,
+    "to": "2016-06-15 11:00:41",
+    "portWriteAvgIOSizeKB": 33.450780679737015,
+    "portTotalBandwidthMBPS": 734.5879709863613,
+    "portReadAvgIOSizeKB": 38.37594303711759,
+    "from": "2016-06-15 06:00:50"
+}]
