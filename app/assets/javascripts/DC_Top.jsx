@@ -24,18 +24,16 @@ class DC_Top extends React.Component {
                 data4: data.map(function(tdata) {
                     return {systemID: tdata.systemID, from: tdata.from, to: tdata.to, stat: tdata.portTotalBandwidthMBPS}
                 })
-            }
+            },
+						pathname: (this.props.location.pathname == "/") ? "/10" : this.props.location.pathname
         }
     }
 
     getData() {
-        let pathname = this.props.location.pathname
-        if (pathname == "/") {
-            pathname = "/10"
-        }
+				let path = (this.props.location.pathname == "/") ? "/10" : this.props.location.pathname
         var name = 'nope';
         var xhr = new XMLHttpRequest();
-        xhr.open('GET', '/getData' + pathname, false);
+        xhr.open('GET', '/getData' + path, false);
         xhr.send(null);
         if (xhr.status === 200) {
 						let DataO = JSON.parse(xhr.responseText)
@@ -51,7 +49,7 @@ class DC_Top extends React.Component {
             <div>
                 <DC_Header/>
                 <div className="container">
-                    <DC_GInput/>
+                    <DC_GInput name={this.state.pathname}/>
 									</div>
                     <DC_GContainer data={this.state.sdata}/>
             </div>

@@ -3,7 +3,8 @@ import {Line} from 'react-chartjs-2';
 
 class Gcomponent extends React.Component {
     constructor(props) {
-        super(props);
+        super(props)
+        var randomColorGenerator = '#' + (Math.random().toString(16) + '0000000').slice(2, 8)
         this.state = {
             data: {
                 labels: props.data.map(function(x) {
@@ -14,18 +15,18 @@ class Gcomponent extends React.Component {
                         label: props.name,
                         fill: false,
                         lineTension: 0.1,
-                        backgroundColor: 'rgba(75,192,192,0.4)',
-                        borderColor: 'rgba(75,192,192,1)',
+                        backgroundColor: randomColorGenerator,
+                        borderColor: randomColorGenerator,
                         borderCapStyle: 'butt',
                         borderDash: [],
                         borderDashOffset: 0.0,
                         borderJoinStyle: 'miter',
-                        pointBorderColor: 'rgba(75,192,192,1)',
+                        pointBorderColor: randomColorGenerator,
                         pointBackgroundColor: '#fff',
                         pointBorderWidth: 1,
                         pointHoverRadius: 5,
-                        pointHoverBackgroundColor: 'rgba(75,192,192,1)',
-                        pointHoverBorderColor: 'rgba(220,220,220,1)',
+                        pointHoverBackgroundColor: randomColorGenerator,
+                        pointHoverBorderColor: randomColorGenerator,
                         pointHoverBorderWidth: 2,
                         pointRadius: 1,
                         pointHitRadius: 10,
@@ -37,14 +38,10 @@ class Gcomponent extends React.Component {
                         })
                     }
                 ]
-            },
-            options: {
-                scales: {
-                    
-                }
             }
         }
     }
+
     render() {
         return (<Line data={this.state.data}/>);
     }
