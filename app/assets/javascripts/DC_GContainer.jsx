@@ -1,7 +1,9 @@
 import Gcomponent from './Gcomponent.jsx'
 const cStyle = {
-    'padding': '100px',
-		'height': '800px'
+    'paddingLeft': '100px',
+		'paddingRight': '100px',
+		'paddingBottom': '100px',
+		'height': '600px'
 };
 
 class DC_GContainer extends React.Component {
