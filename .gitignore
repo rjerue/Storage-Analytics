@@ -1,3 +1,4 @@
+
 logs
 target
 /.idea
@@ -8,3 +9,12 @@ target
 /RUNNING_PID
 app/assets/javascripts/build
 node_modules
+app/parser/perform-csv
+app/parser/project
+app/parser/target
+app/parser/DataCore.db
+app/parser/DataCore.db-journal
+sampleData
+sampleData/
+/sampleData
+/sampleData/
